@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.title{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.title-songs{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: #E05767;
+
+
+}
+.videos{
+    background-position: center;
+    left: 37%;
+    padding: 10px;
+
+}
+
+.text-videos{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#numbers{
+    font-size: 50px
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 50%;
+    flex-direction: column;
+    background: #372434;
+    border-radius: 70px;
+    padding: 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+
+}
+
+img{
+    margin: 10px;
+    object-fit: contain;
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
