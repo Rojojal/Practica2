@@ -13,6 +13,13 @@ body{
     width: 100%;
 }
 
+.title{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
 .nav{
     display: flex;
     width: 100%
@@ -66,4 +73,38 @@ body{
     background-color: black;
     transition: 0.7s;
     
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.other-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-direction: row;
+    margin: 2rem 0;
+    gap: 5rem;
+}
+
+.other-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.other-links a:hover {
+    color: #ddd;
 }

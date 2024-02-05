@@ -35,3 +35,6 @@ img {
     border-radius: 8px;
 }
 
+a:hover {
+    color: #ffcc00;
+}

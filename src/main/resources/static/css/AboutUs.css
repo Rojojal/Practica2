@@ -66,3 +66,7 @@ img{
     border-radius: 20px;
     overflow: hidden;
 }
+
+a:hover {
+    color: #ffcc00;
+}
