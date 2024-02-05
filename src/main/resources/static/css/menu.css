@@ -20,6 +20,13 @@ body{
     color: white;
 }
 
+.index-title{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 20px;
+    color: #E05767;
+}
+
 .nav{
     display: flex;
     width: 100%
@@ -107,4 +114,31 @@ footer {
 
 .other-links a:hover {
     color: #ddd;
+}
+
+.background-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+#b {
+    background: url("https://atwoodmagazine.com/wp-content/uploads/2022/10/Being-Funny-in-a-Foreign-Language-1975-album-art-1170x780.jpeg");
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 100vw;
+    filter: brightness(.8);
+    background-attachment: fixed;
+}
+
+
+.text{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
 }
